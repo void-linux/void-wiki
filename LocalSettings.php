@@ -97,11 +97,7 @@ $wgShellLocale = "en_US.utf8";
 # Site language code, should be one of the list in ./languages/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "6baf8f872aed3365f1c338214c4dec0b734c3c19c4761af2d7110ea7719c1daa";
-
-# Site upgrade key. Must be set to a string (default provided) to turn on the
-# web installer while LocalSettings.php is in place
-$wgUpgradeKey = "4c743ad382603f87";
+require_once( "$IP/voidlinux-private.php" );
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
