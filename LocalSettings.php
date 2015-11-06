@@ -119,8 +119,8 @@ $wgGroupPermissions['*']['edit'] = false;
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
-require_once( "$IP/skins/bootstrap-mediawiki/bootstrap-mediawiki.php" );
-$wgDefaultSkin = "bootstrapmediawiki";
+require_once( "$IP/skins/VoidLinux/voidlinux-mediawiki.php" );
+$wgDefaultSkin = "voidlinuxmediawiki";
 
 # Enabled skins.
 # The following skins were automatically enabled:
