@@ -52,7 +52,7 @@ class SkinVoidLinuxMediaWiki extends SkinTemplate {
 		$out->addModuleStyles( 'skins.voidlinuxmediawiki' );
 
 		// we need to include this here so the file pathing is right
-		$out->addStyle( 'voidlinux-mediawiki/font-awesome/css/font-awesome.min.css' );
+		$out->addStyle( 'VoidLinux/font-awesome/css/font-awesome.min.css' );
 	}//end setupSkinUserCss
 }
 
