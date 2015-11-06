@@ -46,7 +46,7 @@ $wgFavicon = "$wgResourceBasePath/resources/assets/favicon.ico";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "greg@gregf.org";
+$wgEmergencyContact = "gregf@voidlinux.eu";
 $wgPasswordSender = "no-reply@voidlinux.eu";
 
 $wgEnotifUserTalk = false; # UPO
@@ -87,12 +87,12 @@ $wgShellLocale = "en_US.utf8";
 ## create the directories images/archive, images/thumb and
 ## images/temp, and make them all writable. Then uncomment
 ## this, if it's not already uncommented:
-#$wgHashedUploadDirectory = false;
+$wgHashedUploadDirectory = false;
 
 ## Set $wgCacheDirectory to a writable directory on the web server
 ## to make your wiki go slightly faster. The directory should not
 ## be publically accessible from the web.
-#$wgCacheDirectory = "$IP/cache";
+$wgCacheDirectory = "$IP/cache";
 
 # Site language code, should be one of the list in ./languages/Names.php
 $wgLanguageCode = "en";
