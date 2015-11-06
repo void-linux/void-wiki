@@ -1,0 +1,11 @@
+{
+    "name": "tinymighty/skinny",
+    "description": "Skinny is a set of tools and parser extensions to make creating modern, innovative MediaWiki skins possible without resorting to hacks.",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": ["Skinny.php"]
+    },
+    "type": "mediawiki-extension"
+}
