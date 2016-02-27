@@ -7,6 +7,7 @@ require_once __DIR__ . '/NewParserTest.php';
  * an PHPUnit_Framework_Test object
  *
  * @group Parser
+ * @group ParserTests
  * @group Database
  */
 class MediaWikiParserTest {
@@ -91,7 +92,7 @@ class MediaWikiParserTest {
 			// enough to cause there to be separate names for different
 			// things, which is good enough for our purposes.
 			$extensionName = basename( dirname( $fileName ) );
-			$testsName = $extensionName . '⁄' . basename( $fileName, '.txt' );
+			$testsName = $extensionName . '__' . basename( $fileName, '.txt' );
 			$escapedFileName = strtr( $fileName, array( "'" => "\\'", '\\' => '\\\\' ) );
 			$parserTestClassName = ucfirst( $testsName );
 			// Official spec for class names: http://php.net/manual/en/language.oop5.basic.php
